@@ -9,25 +9,29 @@ function Home() {
 
   useEffect(() => {
     const sse = new EventSource("http://127.0.0.1:5000/stream");
+
     function getRealtimeData(data) {
-      console.log(data);
+      // console.log(data);
       setSensorData(data);
       setIsDataFetched(true);
     }
+
     sse.onmessage = (e) => getRealtimeData(JSON.parse(e.data));
+
     sse.onerror = () => {
       sse.close();
     };
+
     return () => {
       sse.close();
       setIsDataFetched(false);
     };
   }, []);
+
   if (isDataFetched) {
     return (
       <div>
         <h1>SSE DEMO</h1>
-        {/* <h2>{sensorData[sensorData.length - 1].light}</h2> */}
         <div
           style={{
             display: "flex",
