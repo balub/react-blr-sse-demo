@@ -1,10 +1,11 @@
 # Realtime Apps with Server-Side Events in React
 
-This repo contains code for the program used for [React Bangalore](https://www.meetup.com/ReactJS-Bangalore/events/276655326/) Meetup using Flask and ReactJS.
+This repo contains the code for the program used for [React Bangalore](https://www.meetup.com/ReactJS-Bangalore/events/276655326/) Meetup using Flask and ReactJS.
 
 ![demo](https://i.imgur.com/QhurVvR.gif)
 
 Slides can be found [here](https://docs.google.com/presentation/d/1KlBgtPvNqskJBEAF0RWfiN3_7zdsIAHKBOXV-AcUBjk/edit?usp=sharing).
+Stream can be found [here](https://www.youtube.com/watch?v=46dn0Lm81is)
 
 ## Running this Project
 
