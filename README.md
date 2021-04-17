@@ -30,7 +30,7 @@ $ npm install
 $ npm start
 ```
 
-Then point a browser at `http://localhost:8000/`.
+Then point a browser at `http://localhost:3000/`.
 
 ## Reference Materials
 
